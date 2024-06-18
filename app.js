@@ -4,12 +4,12 @@ const app = express()
 
 app.get('/', (rep, res) => {
 
-    const photo = {
+    const blog = {
         id: 1,
         title: "Blog Title",
         description: "Blog description"
     }
-    res.send(photo)
+    res.send(blog)
 })
 
 const port = 3000
