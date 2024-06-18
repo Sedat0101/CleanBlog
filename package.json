@@ -1,0 +1,14 @@
+{
+  "name": "cleanblogstarterfile",
+  "version": "1.0.0",
+  "description": "CleanBlog projesi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Sedat İritaş",
+  "license": "ISC"
+}
