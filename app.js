@@ -1,15 +1,12 @@
 const express = require('express')
+const path = require('path')
 
 const app = express()
 
-app.get('/', (rep, res) => {
+app.use(express.static('public'))
 
-    const blog = {
-        id: 1,
-        title: "Blog Title",
-        description: "Blog description"
-    }
-    res.send(blog)
+app.get('/', (rep, res) => {
+    res.sendFile(path.resolve('temp','index.html'))
 })
 
 const port = 3000
